@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-#define PASSWORD "ronaldo 3ammek"
+#define PASSWORD "hotel el3ayechi"
 #define FILENAME_MAX "avis_clients.txt"
 
 typedef struct Room {
@@ -464,8 +464,6 @@ void viewComplaints() {
             }
         }
     }
-
-    printf("\nFin de la vue mensuelle.\n");
 }
 
 void loadAndDisplayReviews() {
